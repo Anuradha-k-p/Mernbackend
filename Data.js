@@ -31,78 +31,6 @@ const data=(req,res)=>{
 
 
 
-//     {   id:"2",
-//     category:"home",
-//     "title": "RajaStan",
-//     "city": "London",
-//     "address": "Somewhere in London",
-//     "distance": 300,
-//     "price": 99,
-//     "maxGroupSize": 10,
-//     "desc":{
-
-//         para1: "India's golden triangle is a tourist circuit which connects the national capital Delhi, Agra and Jaipur. The Golden Triangle is so called because of the triangular shape formed by the locations of New Delhi, Agra and Rajasthan on a map. But now Amritsar is emerging as fourth angle of this triangte. The trips usually start in Dethi moving south to the site of Taj Mahal at Agra, then west, to the desert landscapes of Rajasthan. It is normally possible to do the trip by coach or private journey through most tour operators. The Golden Triangle is now a well traveled route providing a good spectrum of the country's different landscapes. The circuit is about 720 km by road. Each leg is about 4 to 6 hours of drive. The Shatabdi express train also connects Delhi with Agra and Jaipur. Golden triangle India welcome tourists to best of Indian Destinations that will make your journey memorable. So, if you want to taste the culture and religion of India, golden triangle package is the good choice for you.",
-
-//         para2:"The India Tourism clubbed this Golden Triangle Tour with many splendid places of India like Amritsar, Goa, Kerala, Varanasi, Himachal, Khajuraho and many more. Then still what are you thinking, set forth on any Golden Triangle Tour & nearby Destination Packages listed below and enjoy a rich holiday experience in India. If you still haven't found the right tour that you were looking for, email us or talk to our dedicated tour consultants who will be happy to tailor-make one for you."
-//     },
-//     "reviews": [],
-
-//     "photo": "https://www.theindiatourism.com/images/rajasthanpackages.webp",
-
-//     "gallary":{
-//        image1:"",
-//        caption1:"",
-//        image2:"",
-//        caption2:"",
-//        image3:"",
-//        caption3:"",
-//        image4:"",
-//        caption4:""
-
-
-//     }
-//   },
-
-  
-//   {   id:"1",
-//   category:"home",
-//   "title": "Golden Triangle Tour",
-//   "city": "London",
-//   "address": "Somewhere in London",
-//   "distance": 300,
-//   "price": 99,
-//   "maxGroupSize": 10,
-//   "desc":{
-//       para1: "India's golden triangle is a tourist circuit which connects the national capital Delhi, Agra and Jaipur. The Golden Triangle is so called because of the triangular shape formed by the locations of New Delhi, Agra and Rajasthan on a map. But now Amritsar is emerging as fourth angle of this triangte. The trips usually start in Dethi moving south to the site of Taj Mahal at Agra, then west, to the desert landscapes of Rajasthan. It is normally possible to do the trip by coach or private journey through most tour operators. The Golden Triangle is now a well traveled route providing a good spectrum of the country's different landscapes. The circuit is about 720 km by road. Each leg is about 4 to 6 hours of drive. The Shatabdi express train also connects Delhi with Agra and Jaipur. Golden triangle India welcome tourists to best of Indian Destinations that will make your journey memorable. So, if you want to taste the culture and religion of India, golden triangle package is the good choice for you.",
-
-//       para2:"The India Tourism clubbed this Golden Triangle Tour with many splendid places of India like Amritsar, Goa, Kerala, Varanasi, Himachal, Khajuraho and many more. Then still what are you thinking, set forth on any Golden Triangle Tour & nearby Destination Packages listed below and enjoy a rich holiday experience in India. If you still haven't found the right tour that you were looking for, email us or talk to our dedicated tour consultants who will be happy to tailor-make one for you."
-//   },
-//   "reviews": [],
-
-//   "photo": "https://www.drivers-tours.com/images/stories/tours/Humayun_Tomb.jpg",
-
-//   "gallary":{
-//      image1:"",
-//      caption1:"",
-//      image2:"",
-//      caption2:"",
-//      image3:"",
-//      caption3:"",
-//      image4:"",
-//      caption4:""
-
-
-//   }
-// },
-
-
-
-
-
-
-
-
-
 
 
 
@@ -113,33 +41,7 @@ const data=(req,res)=>{
         "title": "Rajastan",
         "desc":" bring you a complete collection of one of a kind tour packages. After all, it is not just a state, it is the pride of its bygone rulers and the joy in the voice of people who say...PADHARO MARE DESH..   The desire to catch the floating bubbles of culture, traditions, history and its royalty never ends, but travelers can at least start from somewhere with our Rajasthan tour Packages. Enjoy  ",
         
-      //   "desc":{
-      //     head1:" Ajmer-Pushkar",
-
-      //    para1: "Ajmer (pronounced Uh-j-mare') is a popular pilgrimage centre famous for its Dargah Sharif-tomb of the Sufi saint Khwaja Moinuddin Chisti. Ajmer is also the base for visiting Pushkar (pronounced Push-cur') A 30 minute uphill drive will take you to this famous tourist destination that is renowned for its Hindu pilgrimage spots, flea market and great roadside food. You can get some amazing pictures of Indian sadhus here.",
-
-      //   head2:"Bikaner",
-
-      //   para2 : "Bikaner (pronounced 'Beeka-noir') is famous for its palaces and its intricately sculptured red and yellow sandstone temples. The climate in Bikaner is characterised by extreme variations in temperature, so be sure to carry weather-appropriate clothing while visiting. However, despite its rugged climate, it is said that Bikaner was once an oasis town used as a stop-over on the trade route between Central Asia and India. It's always interesting to plan a trip around the time of the Bikaner Camel festival, usually held in January.",
-
-      //   head3:"Jaipur",
-
-      //   para3 :"Aptly nicknamed 'The Pink City' for its peculiar affinity for pink stone buildings Jaipur is part of the famous Golden Triangle of cities formed with Delhi and Agra as the other two corners. A bustling capital city and business centre today. Jaipur still retains a royat charm that never foils to surprise. Jaipur is home to several stunning ancient forts. A great time to visit is during January when the annuat Literary Festival is held.",
-
-      //   head4:"Jaisalmer",
-
-      //   para4:"The Golden City of Jaisalmer (pronounced 'Jey-sull-mare) is popular for its 12th century Jaisalmer fort as well as beautiful havelis, mites of smooth yellow sand dunes, and comet saforis. Well known for its camel hide artefacts and the stupendous musical and dance totent of its native people. Jaisalmer is the very heart of the Thar Desert.",
-
-      //   head5:"Jodhpur",
-
-      //   para5:"Jodhpur is a city with a long and captivating history. While India was still under British cotonization, the walled city of Jodhpur had the largest land area of att Rajputana provinces. Today, it is a flourishing centre of handicraft export and tourism, with tons of hotels and palace resorts. Jodhpur hos contributed significantly to the culinary traditions of the country. We strongly recommend a visit to the famous Umaid Bhavan Palace to sook in some history.",
-
-      //  head6 :"Ranthambore",
-
-      //  para6:"Once a princely game conserve, the sanctuary at Ranthambore (pronounced Run-thum-bare') is home to the beautiful Indian tiger, Ranthambore Notional Park is open from October to May every year. You will also get a chance to see an abandoned fortress and lake and take pictures of the gazillion monkeys that are oddly human in their behaviour. "
-               
-            
-      //         },
+      
         "reviews": [],
     
         "photo": "https://www.theindiatourism.com/images/rajasthanpackages.webp",
@@ -1205,6 +1107,150 @@ const data=(req,res)=>{
     
         "photo": "https://www.theindiatourism.com/images/PilgrimageTours.webp",
       },
+
+//offers
+      {
+        id:"81",
+        category:"offer",
+        "title": "Beach Holidays in India",
+        "desc":"Beach Tour Packages in India are designed keeping in mind discerning needs of the tourists. Some tourists want to relish holidays besides the beaches. Many tourists prefer beach holidaying in the last leg of their India tour. Still the foremost choices of beach travel in India include the beautiful sea shores of Goo, where the tropical sun bathed beaches of Anjuna, Baga & Dona Paula have something for every visitor. Other beaches such as Kovalam, Marina and Juhu, not just focus on tourism they are also venues for recreation and entertainment for the local population and the outstation tourists. Go through our various India Beach Tour Packages to pick the one that best fits your budget and duration of your tour and enjoy a memorable beach holiday in India. We have every type of India beach tour packages to fulfill your desires whether you are looking for honeymoon package to Goa or a beach holiday in Kerala, you can pick the best as per your choice from our comprehensive India beach tour packages at exciting prices. So, without giving it to a second thought book your India beach holiday package online through Rover Holidays and be ready to experience the most rejuvenating beach holiday in India.",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/Beach-Holidays-India.jpg",
+      },
+      {
+        id:"82",
+        category:"offer",
+        "title": "Golden Triangle India Tour",
+        "desc":"ndia's golden triangle is a tourist circuit which connects the national capital Delhi, Agra and Jaipur. The Golden Triangle is so called because of the triangular shape formed by the locations of New Delhi. Agra and Rajasthan on a map. But now Amritsar is emerging as fourth angle of this triangle. The trips usually start in Delhi moving south to the site of Taj Mahal at Agra, then west, to the desert Landscapes of Rajasthan. It is normally possible to do the trip by coach or private journey through most tour operators. The Golden Triangle is now a well traveled route providing a good spectrum of the country's different landscapes. The circuit is about 720 km by road. Each leg is about 4 to 6 hours of drive. The Shatabdi express train also connects Delhi with Agra and Jaipur. Golden triangle India welcome tourists to best of Indian Destinations that will make your journey memorable. So, if you want to taste the culture and religion of India, golden triangle package is the good choice for you.",
+
+       
+    
+        "photo": "https://www.theindiatourism.com/images/IndiaGoldenTriangle.jpg",
+      },
+      {
+        id:"83",
+        category:"offer",
+        "title": "Hill Station Holidays",
+        "desc":"Hill Stations are the best ones to escape from the sweltering warmth, pollution and chaos of the city. In India, Hill Stations are always being the first choice among friends, families, couples, students, honeymooners and the professionals, to spend their vacations at a much slower pace away from the hustle and bustle. People, particularly those living in the urban areas, favor the unwinding environment of a hill station as it is a welcome relief away from the everyday life. The hill stations of India are famousty known for their abundance in pristine natural beauty and flora and fauna. We cater to destinations like Nainital, Shimla, Manali, Kullu, Mussourie, Almora, Ranikhet, Gulmarg, Dharamshala, Dalhousie, Lansdowne, Gangtok, etc. Delhi Weekend Tours offers you to come and experience magnificent landscapes, pureness of oxygen and peace of mind away from the everyday hustle bustle.",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/Hill-Station-Holidays.jpg",
+      },
+
+      {
+        id:"84",
+        category:"offer",
+        "title": "Honeymoon Packages India",
+        "desc":"Honeymoon is the time when everything would look ecstatic and romantic. It is not some simple vacation that is focused on hill station destination. This is the vacation that you and your special one will remember throughout your life. Ask any of your married friends about their honeymoon tour and you would see their face lightening up. Rajasthan fits the bill for royal honeymoon in India. Cover historic sites, culturally-enriched places, majestic forts, palaces, temples, the Thar Desert, stay in heritage hotels and more. In fact, Udaipur is Rajasthan one of the most romantic places in the world. Jaipur, Jaisalmer, Mount Abu, Bikaner, Jodhpur and more are important markers of the tour. For beach bums who just want some time alone, we have several itineraries that will offer the ideal beach honeymoon in India. Popular names include Goa, Kerala, and Andaman, while the others are Pondicherry, Alibag, Daman & Diu. Lakshadweep, Gokarna and so many more. Here. Kerala tour packages earn bonus points here. owing to its blissful spread of backwaters, hill stations, wildlife sanctuaries, pampering Ayurveda sessions, culture along with the scenic beaches.",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/Honeymoon-tour-India.jpg",
+      },
+
+
+
+      //home dynamic
+      {
+        id:"85",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"86",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"87",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"88",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"89",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"90",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"91",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"92",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"93",
+        category:"home",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"94",
+        category:"crousal",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"95",
+        category:"crousal",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+      {
+        id:"96",
+        category:"crousal",
+        "title": "Varanasi",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+      },
+
+
+
+
 
 
 
