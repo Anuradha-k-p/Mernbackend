@@ -7,24 +7,33 @@ const data=(req,res)=>{
     {   id:"1",
         category:"home",
         "title": "Golden Triangle Tour",
-        "city": "London",
+       
         
         "desc":" India's golden triangle is a tourist circuit which connects the national capital Agra and Jaipur.The Golden Triangle is so called because of the triangular shape formed by the locations of New Delhi, Agra and Rajasthan on a map. But now Amritsar is emerging as fourth angle of this triangle. The trips usually start in Delhi moving south to the site of Taj Mahal at Agra, then west, to the desert landscapes of Rajasthan. It is normally possible to do the trip by coach or private journey through most tour operators. The Golden Triangle is now a well traveled route providing a good spectrum of the country's different landscapes. The circuit is about 720 km by road. Each leg is about 4 to 6 hours of drive. The Shatabdi express train also connects Delhi with Agra and Jaipur. ",
     
         "photo": "https://www.drivers-tours.com/images/stories/tours/Humayun_Tomb.jpg",
 
-        "gallary":{
-           image1:"https://www.theindiatourism.com/images/Golden-Triangle-Ajmer.jpg",
-           caption1:"Golden Triange Tour",
-           image2:"https://www.theindiatourism.com/images/Varanasi.jpg",
-           caption2:"Golden Trianle With Varanasi",
-           image3:"https://www.theindiatourism.com/images/Mumbai.jpg",
-           caption3:"Golden Tringle with Mumbai",
-           image4:"https://www.theindiatourism.com/images/Amritsar.jpg",
-           caption4:"Golden Triangle With Amritsar"
-
-
-        }
+        
+          "gallery": [
+            {
+              "image": "https://www.theindiatourism.com/images/Golden-Triangle-Ajmer.jpg",
+              "caption": "Golden Triangle Tour"
+            },
+            {
+              "image": "https://www.theindiatourism.com/images/Varanasi.jpg",
+              "caption": "Golden Triangle With Varanasi"
+            },
+            {
+              "image": "https://www.theindiatourism.com/images/Mumbai.jpg",
+              "caption": "Golden Triangle with Mumbai"
+            },
+            {
+              "image": "https://www.theindiatourism.com/images/Amritsar.jpg",
+              "caption": "Golden Triangle With Amritsar"
+            }
+          ]
+      
+        
       },
       
 
@@ -1150,102 +1159,178 @@ const data=(req,res)=>{
 
 
 
-      //home dynamic
+      //golden dynamic
       {
         id:"85",
-        category:"home",
-        "title": "Varanasi",
+        category:"golden",
+        "title": "Golden Triangle Tour",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Golden-Triangle-Ajmer.jpg",
+        "duration":"4 Nights/ 5 Days"
       },
       {
         id:"86",
-        category:"home",
-        "title": "Varanasi",
+        category:"golden",
+        "title": "Golden Triangle with Varanasi",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Varanasi.jpg",
+        "duration":"6 Nights/ 7 Days"
       },
       {
         id:"87",
-        category:"home",
-        "title": "Varanasi",
+        category:"golden",
+        "title": "Golden Triangle with Mumbai",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Mumbai.jpg",
+        "duration":"13 Nights/ 14 Days"
+        
       },
       {
         id:"88",
-        category:"home",
-        "title": "Varanasi",
+        category:"golden",
+        "title": "Golden Triangle With Amritsar",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Amritsar.jpg",
+        "duration":"8 Nights/ 9 Days"
       },
+
+
+
+     //rajastan
+
+
       {
         id:"89",
-        category:"home",
-        "title": "Varanasi",
+        category:"rajastan",
+        "title": "Jaipur Tour Packages",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/jaipur.jpg",
+        "duration":"3 Days/4 Nights"
       },
       {
         id:"90",
-        category:"home",
-        "title": "Varanasi",
+        category:"rajastan",
+        "title": "Jodhpur Tour Packages",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Jodhpur.jpg",
+        "duration":"3 Days/4 Nights"
       },
       {
         id:"91",
-        category:"home",
-        "title": "Varanasi",
+        category:"rajastan",
+        "title": "Jaisalmer Tour Packages",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/jaisalmer.jpg",
+        "duration":"3 Days/4 Nights"
       },
+
+
+
+
       {
         id:"92",
-        category:"home",
-        "title": "Varanasi",
+        category:"rajastan",
+        "title": "Udaipur Tour Packages",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Udaipur.jpg",
       },
+
+
+
+
+      //kerala
       {
         id:"93",
-        category:"home",
-        "title": "Varanasi",
-       
+        category:"kerala",
+        "title": "Kerala Honeymoon Tour",
+        "duration":"7 Nights/ 8 Days",
+
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Kerala-Honeymoon.jpg",
       },
       {
         id:"94",
-        category:"crousal",
-        "title": "Varanasi",
+        category:"kerala",
+        "title": "Kerala Backwaters Holiday",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Kerala-Backwater.jpg",
+        "duration":"4 Nights/ 5 Days"
+
       },
       {
         id:"95",
-        category:"crousal",
-        "title": "Varanasi",
+        category:"kerala",
+        "title": "Munnar Thekkady Package",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Kerala-Hill-Station.jpg",
+        "duration":"6 Nights/ 7 Days"
+
       },
       {
         id:"96",
-        category:"crousal",
-        "title": "Varanasi",
+        category:"kerala",
+        "title": "6 Days Kerala Ayurveda Tour",
        
     
-        "photo": "https://www.theindiatourism.com/images/varanasi-tour.webp",
+        "photo": "https://www.theindiatourism.com/images/Kerala-Ayurveda-Tour.jpg",
+        "duration":"8 Nights/ 9 Days"
+
+      },
+
+
+      //goa
+      {
+        id:"97",
+        category:"goa",
+        "title": "Mumbai with Goa Tour",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/mumbai-tour.jpg",
+        "duration":"5 Nights/ 6 Days"
+
+      },
+
+      {
+        id:"98",
+        category:"goa",
+        "title": "Goa Tour Package",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/goa-tours.jpg",
+        "duration":"10 Nights/ 11 Days"
+
+      },
+
+      {
+        id:"99",
+        category:"goa",
+        "title": "Golden Triangle with Goa",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/Jaipur-tour.jpg",
+        "duration":"11 Nights/ 12 Days"
+
+      },
+
+      {
+        id:"100",
+        category:"goa",
+        "title": "Mumbai Goa Cochin Tour",
+       
+    
+        "photo": "https://www.theindiatourism.com/images/Cochin-tour.jpg",
+        "duration":"6 Nights/ 7 Days"
+
       },
 
 
@@ -1294,60 +1379,3 @@ module.exports = {data}
 
 
 
-
-
-
-
-
-
-
-
-
-// // // AppContext.js
-// import React, { createContext, useState } from 'react';
-
-// // Create context
-// export const AppContext = createContext();
-
-// // Create context provider
-// export const AppProvider = ({ children }) => {
-//   // Define your gallery data here
-//   const galleryData = {
-//     image1: "https://www.theindiatourism.com/images/Golden-Triangle-Ajmer.jpg",
-//     caption1: "Golden Triangle Tour",
-//     image2: "https://www.theindiatourism.com/images/Varanasi.jpg",
-//     caption2: "Golden Triangle With Varanasi",
-//     image3: "https://www.theindiatourism.com/images/Mumbai.jpg",
-//     caption3: "Golden Triangle with Mumbai",
-//     image4: "https://www.theindiatourism.com/images/Amritsar.jpg",
-//     caption4: "Golden Triangle With Amritsar"
-//   };
-
-//   return (
-//     <AppContext.Provider value={{ galleryData }}>
-//       {children}
-//     </AppContext.Provider>
-//   );
-// };
-
-// // GallaryComponent.js
-// import React, { useContext } from 'react';
-// import { AppContext } from './AppContext';
-
-// const GalleryComponent = () => {
-//   // Access gallery data from context
-//   const { galleryData } = useContext(AppContext);
-
-//   return (
-//     <div className="gallery-container">
-//       {Object.keys(galleryData).map((key) => (
-//         <div className="gallery-item" key={key}>
-//           <img src={galleryData[key]} alt={`Gallery ${key}`} />
-//           <div className="caption">{galleryData[`caption${key.slice(5)}`]}</div>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default GalleryComponent;
